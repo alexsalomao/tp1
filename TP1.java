@@ -385,6 +385,12 @@ public class TP1 {
                 ++num;
                 
                 System.out.println(num+"  "+nome+"  "+notasAlunos[num]);
+                
+                if(num==10)
+                {
+                    interC.showMsg("");
+                    num=0;
+                }
             }
             interC.showMsg("");
             
